@@ -1,0 +1,83 @@
+html {
+  background: #124d4a;
+	text-align: center;
+}
+body {
+  text-align: center;
+  color: ghostwhite;
+  margin: 0;
+  padding: 2em;
+  
+}
+h2 {
+  font-weight: 800;
+  color: white;
+  margin-bottom: 20px;
+  text-shadow: 1px 2px 2px #24083d; 
+}
+footer {
+  text-align: center;
+  font-weight: 700;
+  color: white;
+  vertical-align: bottom;
+  text-shadow: 1px 2px 2px #24083d;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+}
+.calc {
+  font-size: 30px;
+  margin: 60px auto 140px;
+  width: 10em;
+  border: 4px;
+  border-style: outset;
+  border-color: darkseagreen;
+  box-shadow: 3px 6px 8px #24083d;
+}
+.display {
+	float: inherit;
+  text-align: right;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 7.8em;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: auto 32px 10px auto;
+  border: 4px;
+  border-style: inset;
+  background: #e3cafa;
+  color: #24083d;
+
+}
+button {
+  color: #24083d;
+  background: darkseagreen;
+  height: 40px;
+  width: 40px;
+  border: 2px;
+  border-color: darkseagreen;
+  border-style: outset;
+  box-shadow: 2px 3px 3px #24083d;
+  margin: 10px;
+  font-weight: 600;
+  font-size: 28px;
+}
+.clear, .equals {
+  width: 108px;
+  height: 36px;
+  line-height: 1em;
+}
+button.clear:hover, button.equals:hover {
+  background: #f08d32;
+  cursor: pointer;
+}
+button.number:hover, button.decimal:hover {
+  background:#5bc5c0;
+  cursor: pointer;
+}
+button.operator:hover {
+  background: #8e72a5;
+  cursor: pointer;
+}
+
